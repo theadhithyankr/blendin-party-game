@@ -14,7 +14,7 @@ Social party game where players try to blend in with the group.
 
 BlendIn Party Game is a party game project in the TheAdhithyanKR/blendin-party-game repository. Next.js social deduction party game with AI-generated keywords and role reveal, discussion, voting, and results flows.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=package.json; Json=}.Path), and the commands below are taken from its scripts.
 
 ## Key Features
 
@@ -32,7 +32,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- .idx/dev.nix
 |-- .idx/icon.png
@@ -47,14 +47,14 @@ The README was written from the repository contents, including its manifest file
 |-- README.md
 |-- tailwind.config.ts
 |-- tsconfig.json
-`
+```
 
 ## Setup
 
-`ash
+```bash
 npm install
 npm run dev
-`
+```
 
 ## What This Project Demonstrates
 
